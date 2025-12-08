@@ -3,7 +3,7 @@ cask "fastdeploy-core" do
   name "fastdeploy-core"
   desc "CLI multiplataforma para despliegues automáticos y rápidos de aplicaciones"
   homepage "https://github.com/jairoprogramador/fastdeploy-core"
-  version "1.0.7"
+  version "1.0.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "fastdeploy-core" do
   on_macos do
     on_intel do
       url "https://github.com/jairoprogramador/fastdeploy-core/releases/download/v#{version}/fastdeploy-core_darwin_amd64.tar.gz"
-      sha256 "0ed658143a334be0b714ec19c63ce32ad807f1bfdc02bff347bc9b607a0da9c3"
+      sha256 "ce5109d010f1e4398556209677979ebd8abd946799b5cf0fc6f3cea278512440"
     end
     on_arm do
       url "https://github.com/jairoprogramador/fastdeploy-core/releases/download/v#{version}/fastdeploy-core_darwin_arm64.tar.gz"
-      sha256 "64a2f3718c116777e058def4f99c58ff689915ec12a087564124c4b272db5767"
+      sha256 "f5567a23ee939571a2e7b9eb1a1faceed04359cbd67a93daa2bb52f112d56da8"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jairoprogramador/fastdeploy-core/releases/download/v#{version}/fastdeploy-core_linux_amd64.tar.gz"
-      sha256 "f25569a04a3001d1bfffafb5d3856fe4707701a4c10ca228ec817adf561bbedc"
+      sha256 "02f3153fcbfdcb24b77df01a67e1fd5dfc5159faf08d3ce94617ecd42ffc62e5"
     end
     on_arm do
       url "https://github.com/jairoprogramador/fastdeploy-core/releases/download/v#{version}/fastdeploy-core_linux_arm64.tar.gz"
-      sha256 "c3c32d9b709f1b8d996d84cec3749de0c094940618fa9e47109c46b4f498d96f"
+      sha256 "52d962499bdf86ab768f16efe9ff8ee3fec28f747dbec2df432c29857d7b8961"
     end
   end
 
