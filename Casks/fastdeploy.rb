@@ -3,7 +3,7 @@ cask "fastdeploy" do
   name "fastdeploy"
   desc "CLI multiplataforma para despliegues automáticos y rápidos de aplicaciones"
   homepage "https://github.com/jairoprogramador/fastdeploy"
-  version "1.0.3"
+  version "1.0.12"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "fastdeploy" do
 
   on_macos do
     on_intel do
-      url "https://github.com/jairoprogramador/fastdeploy/releases/download/v#{version}/fastdeploy_#{version}_darwin_amd64.tar.gz"
-      sha256 "acfef474d7b7e059809a3191f5026e0239c2f1387af0ec26bf4d2143fd6272fc"
+      url "https://github.com/jairoprogramador/fastdeploy/releases/download/v#{version}/fastdeploy_darwin_amd64.tar.gz"
+      sha256 "3a80439d34e713e77acef9bf88f6dfc3ca7a25b6f860931a67bad9dfeae735ce"
     end
     on_arm do
-      url "https://github.com/jairoprogramador/fastdeploy/releases/download/v#{version}/fastdeploy_#{version}_darwin_arm64.tar.gz"
-      sha256 "48c486417a45ca35cfff13d8ef29b908c3262c5dd8deaf594e0fa6962f61512a"
+      url "https://github.com/jairoprogramador/fastdeploy/releases/download/v#{version}/fastdeploy_darwin_arm64.tar.gz"
+      sha256 "8b085ad233caca8a8bb41a15079083dce9213eaae23eeb04a895eb9dbaedf279"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jairoprogramador/fastdeploy/releases/download/v#{version}/fastdeploy_#{version}_linux_amd64.tar.gz"
-      sha256 "cf036e3db060ce868c3d17f9c50acf11c351104f53387d984864bd9f8a74f67b"
+      url "https://github.com/jairoprogramador/fastdeploy/releases/download/v#{version}/fastdeploy_linux_amd64.tar.gz"
+      sha256 "b612a7fe8e4e626aceec0f09ac0a8c586100e498aa41a7c51cdca055e9e0a8bf"
     end
     on_arm do
-      url "https://github.com/jairoprogramador/fastdeploy/releases/download/v#{version}/fastdeploy_#{version}_linux_arm64.tar.gz"
-      sha256 "fb49c44c75cb27565f6aad14243b629fed13204d16c9efc947c141a74141e8e2"
+      url "https://github.com/jairoprogramador/fastdeploy/releases/download/v#{version}/fastdeploy_linux_arm64.tar.gz"
+      sha256 "ab0836b8b2cf3cba05551edba69324dbeae8f34cb223d9267102e677170b544f"
     end
   end
 
